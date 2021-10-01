@@ -1,11 +1,11 @@
-import org.junit.Test;
 
+import org.junit.jupiter.api.Test;
 import ru.netology.CashbackHackerService;
 
-import static org.junit.Assert.*;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 
-public class ServiceTest {
+public class ServiceTestJ5 {
     CashbackHackerService service = new CashbackHackerService();
 
     @Test
@@ -31,6 +31,4 @@ public class ServiceTest {
         int actual = service.remain(999);
         assertEquals(1, actual);
     }
-
-
 }
